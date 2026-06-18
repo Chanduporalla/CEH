@@ -8,3 +8,39 @@ some words and plan tech
 online web site 
 cloths and shoes and value 
 profiles and witage
+The most famous and widely recognized GitHub repository for web-attack payloads and cheat sheets is [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/payloadsallthethings). It serves as a central hub for penetration testers and security researchers globally. [1, 2] 
+Beyond that singular repo, several other legendary open-source repositories and frameworks host major attack techniques, payloads, and wordlists.
+## 1. Web Vulnerability & Payload Repositories
+
+* PayloadsAllTheThings: The gold standard for web application security. It features structured bypasses and payloads for SQL Injection, Cross-Site Scripting (XSS), Command Injection, and directory traversal. [1, 3] 
+* [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists): The absolute go-to companion for security testers. It contains comprehensive collections of usernames, passwords, URLs, sensitive data patterns, and fuzzing payloads for brute-force attacks. [4, 5] 
+* [payload-box repositories](https://github.com/payload-box): A highly structured collection of dedicated repositories tracking specific vectors, such as the [Open Redirect Payload List](https://github.com/payload-box/open-redirect-payload-list), XSS, and SQLi lists. [6] 
+
+## 2. Post-Exploitation & Command Shell Repositories
+
+* swisskyrepo/ReverseShellCheatsheet: A legendary collection of one-liners to spin up interactive reverse shells across dozens of languages (Python, Bash, PowerShell, PHP, etc.).
+* [samratashok/nishang](https://github.com/samratashok/nishang): A widely recognized framework of PowerShell scripts and payloads used specifically for offensive security, post-exploitation, and execution on Windows environments.
+
+## 3. Exploitation Frameworks & Tool Repositories
+
+* [rapid7/metasploit-framework](https://github.com/rapid7/metasploit-framework): The official open-source repository for the most famous exploitation software in the world. It includes thousands of built-in exploits, auxiliary scanners, and modular payloads (like Meterpreter). [7] 
+* gentilkiwi/mimikatz: The iconic post-exploitation tool repository used to extract plain-text passwords, hash dumps, and Kerberos tickets directly from Windows memory.
+* hak5/usbrubberducky-payloads: The official hub for DuckyScript community payloads. It is used for Keystroke Injection attacks using hotplug hardware tools. [8] 
+
+## 4. Curated "Awesome" Attack Directories [4] 
+
+* [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker): Maintained by cybersecurity expert Omar Santos, this massive repo hosts thousands of links regarding exploit development, offensive AI, and ethical hacking resources. [5, 9] 
+* [enaqx/awesome-pentest](https://github.com/enaqx/awesome-pentest): A collection of hundreds of open-source penetration testing tools, covering network attacks, social engineering, and execution environments. [10] 
+
+Are you looking for payloads targeting a specific vulnerability (like XSS or SQLi), or are you building a custom fuzzing list for a particular tool?
+
+[1] [https://github.com](https://github.com/swisskyrepo/payloadsallthethings)
+[2] [https://github.com](https://github.com/topics/payload-list)
+[3] [https://www.youtube.com](https://www.youtube.com/watch?v=Tpplsji0y74&t=24)
+[4] [https://github.com](https://github.com/topics/exploit-payloads)
+[5] [https://banagevikas.medium.com](https://banagevikas.medium.com/hidden-cybersecurity-gems-on-github-top-cybersecurity-repositories-to-follow-on-github-8879f3163283)
+[6] [https://github.com](https://github.com/payload-box/open-redirect-payload-list)
+[7] [https://github.com](https://github.com/topics/payload)
+[8] [https://github.com](https://github.com/hak5/usbrubberducky-payloads)
+[9] [https://github.com](https://github.com/topics/exploits)
+[10] [https://github.com](https://github.com/enaqx/awesome-pentest)
